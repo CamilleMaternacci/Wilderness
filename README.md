@@ -17,7 +17,7 @@ In the future, when I gain more experience and skills I will want to adapt it fo
 
 ## Screenshots
 
-![App Screenshot](./screen.basket.png)
+<img src="./screen/Basket.png" width="400px">
 ![App Screenshot](../Desktop/Screeny%20Projektu/Basket.png)
 ![App Screenshot](../Desktop/Screeny%20Projektu/Offers%20Box.png)
 
