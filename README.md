@@ -17,9 +17,9 @@ In the future, when I gain more experience and skills I will want to adapt it fo
 
 ## Screenshots
 
-<img src="./screen/Home.png" width="800px">
-<img src="./screen/Basket.png" width="800px">
-<img src="./screen/Offers Box.png" width="800px">
+<img src="./screen/Home.png" width="1200px">
+<img src="./screen/Basket.png" width="1200px">
+<img src="./screen/Offers Box.png" width="1200px">
 
 ## 🔗 Live Site
 [Live Here!](https://camillematernacci.github.io/Wilderness/)
