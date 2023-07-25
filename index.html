@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Wilderness - poznaj ofertę najlepszego parku w Twojej okolicy! ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilderness</title>
+    <link rel="shortcut icon" href="../dist/img/icon_forest.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/78eebef08c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main-page">
+
+    <div class="wrapper">
+
+        <nav>
+            <div class="logo">
+                <a href="/index.html">
+                    <p><i class="fa-solid fa-tree"></i> Wilderness</p>
+                </a>
+            </div>
+            <div class="nav-links-desktop">
+                <a href="#home" class="active">Home</a>
+                <a href="#aboutus">O nas</a>
+                <a href="#offers">Oferta</a>
+                <a href="./contact.html">Kontakt</a>
+                <button class="basket-cart"><i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+            <div class="basket-popup">
+                <p>Dodano do koszyka!</p>
+                <button class="close-basketpopup"><i class="fa-regular fa-circle-xmark"></i></button>
+            </div>
+            <div class="basket-popup remove">
+                <p>Usunięto z koszyka!</p>
+                <button class="close-basketpopup"><i class="fa-regular fa-circle-xmark"></i></button>
+            </div>
+        </nav>
+
+        <header class="section" id="home">
+            <div class="header-img">
+                <div class="header-text">
+                    <p>Wilderness Group</p>
+                    <h1>Najpiękniejszy park w Twojej okolicy!</h1>
+                </div>
+                <div class="header-bg"></div>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="cart">
+                <button class="close-basket-panel">Zamknij</button>
+                <div class="basket-area">
+                    <div class="basket-box">
+                        <div class="basket-logo">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <p>Koszyk</p>
+                        </div>
+                        <div class="single-item"></div>
+                        <div class="empty-basket-information">Koszyk jest pusty <i class="fa-solid fa-cart-plus"></i>
+                        </div>
+                        <button class="delete-basket">Wyczyść koszyk</button>
+                    </div>
+
+                    <div class="transaction-box">
+                        <div class="value-items">
+                            <p>Wartość produktów: <b>$<span class="total-price"></span></b></p>
+                        </div>
+                        <button class="pay">Zapłać</button>
+                        <a href="./fulloffers.html"><button class="continue-shopping">Kontynuuj Zakupy</button></a>
+                        <div class="safe-box">
+                            <i class="fa-solid fa-umbrella"></i>
+                            <h4>Kupujesz z Wilderness Protect</h4>
+                            <p>100% zakupów ze zwrotem pieniędzy do 48h</p>
+                        </div>
+                        <div class="confirmation-popup">
+                            <p>Transakcja przebiegła pomyślnie <i class="fa-solid fa-handshake-angle"></i></p>
+                            <p>Zapraszamy ponownie!</p>
+                        </div>
+                        <div class="empty-basket-popup">
+                            <p>Koszyk nie może być pusty <i class="fa-solid fa-triangle-exclamation"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section about-us" id="aboutus">
+                <h2>O nas</h2>
+                <div class="aboutus-area">
+                    <div class="box-img">
+                        <img src="./dist/img/waters-ge457f20a8_1920.jpg" alt="wysepka skalna na wodzie">
+                    </div>
+                    <div class="box-text">
+                        <h3>Niezapomniane przygody</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis autem blanditiis
+                            doloribus
+                            culpa
+                            dolores soluta earum. Alias quisquam ut modi excepturi recusandae, rem eos maxime assumenda,
+                            quos
+                            molestias, mollitia delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reiciendis
+                            autem blanditiis doloribus culpa dolores soluta earum. Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Alias quisquam ut modi excepturi recusandae, rem eos maxime assumenda.
+                            Reiciendis autem blanditiis
+                            doloribus
+                            culpa
+                            dolores soluta earum. Alias quisquam ut modi excepturi recusandae, rem eos maxime assumenda,
+                            quos
+                            molestias, mollitia delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section banner-section" id="aboutus">
+                <div class="banner-img">
+                    <div class="banner-btn">
+                        <a href="./fulloffers.html"><button class="btn-adventure">Przygoda dla całej rodziny</button></a>
+                    </div>
+                    <div class="banner-bg"></div>
+                </div>
+            </section>
+
+            <section class="section offer" id="offers">
+                <h2>Oferta</h2>
+                <p>Wybierz jedną z naszych wspaniałych ofert!</p>
+                <div class="offer-boxes">
+                    <div class="box demo" id="first-box">
+                        <h4>Mini</h4>
+                        <b>$<span>49</span></b>
+                        <div class="column-text">
+                            <ul>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p class="bleached"><i class="fa-solid fa-minus"></i> opcja poza pakietem</p>
+                                </li>
+                                <li>
+                                    <p class="bleached"><i class="fa-solid fa-minus"></i> opcja poza pakietem</p>
+                                </li>
+                                <li>
+                                    <p class="bleached"><i class="fa-solid fa-minus"></i> opcja poza pakietem</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn-chose" id="first-btn">Wybierz</button>
+                    </div>
+                    <div class="box standard" id="second-box">
+                        <h4>Standard</h4>
+                        <b>$<span>99</span></b>
+                        <div class="column-text">
+                            <ul>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p class="bleached"><i class="fa-solid fa-minus"></i> opcja poza pakietem</p>
+                                </li>
+                                <li>
+                                    <p class="bleached"><i class="fa-solid fa-minus"></i> opcja poza pakietem</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn-chose" id="second-btn" data-id="1">Wybierz</button>
+                    </div>
+                    <div class="box premium" id="third-box">
+                        <h4>Premium</h4>
+                        <b>$<span>199</span></b>
+                        <div class="column-text">
+                            <ul>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn-chose" id="third-btn" data-id="2">Wybierz</button>
+                    </div>
+                </div>
+                <div class="full-offer">
+                    <h3 class="fulloffer-h3"><a href="./fulloffers.html">Poznaj naszą pełną ofertę</a></h3>
+                </div>
+            </section>
+
+            <section class="section links-area">
+                <div class="logo">
+                    <a href="/index.html">
+                        <p><i class="fa-solid fa-tree"></i> Wilderness</p>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <div class="links-box">
+                    <div class="box">
+                        <h4>O firmie</h4>
+                        <ul>
+                            <li><a href="#">Historia</a></li>
+                            <li><a href="#">Parki</a></li>
+                            <li><a href="#">Opinie</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4>Kariera</h4>
+                        <ul>
+                            <li><a href="#">Praca</a></li>
+                            <li><a href="#">Kadry</a></li>
+                            <li><a href="#">Zarząd</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4>Dokumenty</h4>
+                        <ul>
+                            <li><a href="#">Wnioski</a></li>
+                            <li><a href="#">Rezerwacje</a></li>
+                            <li><a href="#">Regulamin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer">&copy; <span class="footer-year"></span> Wilderness Group Company</p>
+        </footer>
+
+        <div class="cookie-box">
+            <p>Nasza strona korzysta z ciasteczek!</p>
+            <button class="cookie-btn">Akceptuj <i class="fa-solid fa-cookie-bite"></i></button>
+        </div>
+
+    </div>
+
+    <script src="./dist/js/script.min.js"></script>
+</body>
+ 
+</html>

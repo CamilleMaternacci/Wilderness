@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilderness</title>
+    <link rel="shortcut icon" href="../dist/img/icon_forest.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/78eebef08c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <nav>
+            <div class="logo">
+                <a href="./index.html">
+                    <p><i class="fa-solid fa-tree"></i> Wilderness</p>
+                </a>
+            </div>
+            <div class="nav-links-desktop">
+                <a href="./index.html">Home</a>
+                <a href="./index.html">O nas</a>
+                <a href="./fulloffers.html">Oferta</a>
+                <a href="./contact.html" class="active">Kontakt</a>
+            </div>
+        </nav>
+
+        <header>
+            <div class="header-img">
+                <div class="header-text">
+                    <p>Wilderness Group</p>
+                    <h1>Jesteśmy w kontakcie z naszymi klientami!</h1>
+                </div>
+                <div class="header-bg"></div>
+            </div>
+        </header>
+
+        <h2 class="contact-withus">Skontaktuj się z nami <i class="fa-regular fa-address-card"></i></h2>
+
+        <a href="#form-area"><button class="scroll-down"><i class="fa-solid fa-circle-arrow-down"></i></button></a>
+
+        <main>
+            <div class="contact-img" id="form-area">
+                <div class="contact-bg"></div>
+                <form>
+                    <div class="form-boxes">
+                        <div class="form-box">
+                            <label for="name">Imię:</label>
+                            <input type="text" id="name" size="58" placeholder="Podaj imię">
+                        </div>
+                        <div class="form-box">
+                            <label for="surname">Nazwisko:</label>
+                            <input type="text" id="surname" size="58" placeholder="Podaj nazwisko">
+                        </div>
+                        <div class="form-box">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" size="58" placeholder="Podaj adres e-mail">
+                            <p class="error-email"></p>
+                        </div>
+                        <div class="form-box">
+                            <label for="message">Wiadomość:</label>
+                            <textarea id="message" placeholder="Wpisz treść wiadomości"></textarea>
+                            <p class="error-text"></p>
+                            <div class="control-buttons">
+                                <button class="send-btn">Wyślij</button>
+                                <button class="clear-btn">Wyczyść</button>
+                            </div>
+                        </div>
+                        <div class="form-box agreement">
+                            <input type="checkbox" id="agreement" name="agreement">
+                            <label for="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych podanych w
+                                powyższym formularzu w celach handlowych i marketingowych przez Wilderness oraz przez
+                                podmioty trzecie.</label>
+                        </div>
+                    </div>
+                    <div class="msg-popup">
+                        <p>Wiadomość została wysłana <i class="fa-regular fa-circle-check"></i></p>
+                        <p>Skontaktujemy się z Tobą <i class="fa-regular fa-envelope"></i></p>
+
+                    </div>
+                    <div class="error-popup">
+                        <p>Uzupełnij poprawnie wszystkie pola oraz zaznacz zgodę <i
+                                class="fa-solid fa-triangle-exclamation"></i></p>
+                    </div>
+                    <div class="clear-popup">
+                        <p>Usuwam <i class="fa-regular fa-trash-can"></i></p>
+                    </div>
+                    <div class="map-box">
+                        <div class="find-us">
+                            <h3>Znajdź nas! <i class="fa-solid fa-signs-post"></i></h3>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298542.5900827518!2d20.422036756249987!3d50.53015290000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47234910d4f0d4ab%3A0xd34c1af5dfa8bab1!2sPuszcza%20Solska!5e0!3m2!1spl!2spl!4v1689139751007!5m2!1spl!2spl"
+                            width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </form>
+            </div>
+
+            <section class="section links-area">
+                <div class="logo">
+                    <a href="/index.html">
+                        <p><i class="fa-solid fa-tree"></i> Wilderness</p>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <div class="links-box">
+                    <div class="box">
+                        <h4>O firmie</h4>
+                        <ul>
+                            <li><a href="#">Historia</a></li>
+                            <li><a href="#">Parki</a></li>
+                            <li><a href="#">Opinie</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4>Kariera</h4>
+                        <ul>
+                            <li><a href="#">Praca</a></li>
+                            <li><a href="#">Kadry</a></li>
+                            <li><a href="#">Zarząd</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4>Dokumenty</h4>
+                        <ul>
+                            <li><a href="#">Wnioski</a></li>
+                            <li><a href="#">Rezerwacje</a></li>
+                            <li><a href="#">Regulamin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer">&copy; <span class="footer-year"></span> Wilderness Group Company</p>
+        </footer>
+
+    </div>
+
+
+    <script src="./dist/js/contact.min.js"></script>
+</body>
+
+</html>
