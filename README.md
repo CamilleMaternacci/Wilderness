@@ -17,7 +17,7 @@ In the future, when I gain more experience and skills I will want to adapt it fo
 
 ## Screenshots
 
-![App Screenshot](../Desktop/Screeny%20Projektu/Home.png)
+![App Screenshot](./screen.basket.png)
 ![App Screenshot](../Desktop/Screeny%20Projektu/Basket.png)
 ![App Screenshot](../Desktop/Screeny%20Projektu/Offers%20Box.png)
 
